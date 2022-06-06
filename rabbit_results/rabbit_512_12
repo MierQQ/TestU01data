@@ -1,0 +1,417 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 512
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = DESKTOP-LBIV1M0, Linux
+
+ulcg_CreatePow2LCGL:   e = 48,   a = 25214903917,   c = 11,   s = 1
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  1,  n = 512,  r =  0,   s = 32,   L =   10,
+       Sparse =   TRUE
+
+       Number of bits = n = 512
+       Number of cells = 2^L =               1024
+       Expected number per cell =  1 /          2
+       EColl = n^2 / (2k) =          128
+       Hashing =  FALSE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /       2.00
+       Expected number of collisions = Mu =      97.18
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :       97.18
+Observed number of collisions         :      112
+p-value of test                       :    0.08
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :              624
+  j =  1                              :              309
+  j =  2                              :               77
+  j =  3                              :                8
+  j =  4                              :                5
+  j =  5                              :                1
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+ s = 134989521178577
+
+
+
+
+***********************************************************
+HOST = DESKTOP-LBIV1M0, Linux
+
+ulcg_CreatePow2LCGL:   e = 48,   a = 25214903917,   c = 11,   s = 1
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  1,  n =  8,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :    2.00
+p-value of test                       :    0.36
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+ s = 27569782928289
+
+
+
+
+***********************************************************
+HOST = DESKTOP-LBIV1M0, Linux
+
+ulcg_CreatePow2LCGL:   e = 48,   a = 25214903917,   c = 11,   s = 1
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  1,  n =  4,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :   0.000
+p-value of test                       :    0.32
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+ s = 12198546484081
+
+
+
+
+***********************************************************
+HOST = DESKTOP-LBIV1M0, Linux
+
+ulcg_CreatePow2LCGL:   e = 48,   a = 25214903917,   c = 11,   s = 1
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 120,   K = 120,   r = 0,   s = 30,   L = 2
+
+   Sequences of n = (K + Q)L =          480 bits
+   Q =  120 initialization blocks
+   K =  120 blocks for the test
+   the blocks have L =  2 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.59
+p-value of test                       :    0.28
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+ s = 179160878069569
+
+
+
+
+***********************************************************
+HOST = DESKTOP-LBIV1M0, Linux
+
+ulcg_CreatePow2LCGL:   e = 48,   a = 25214903917,   c = 11,   s = 1
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 512,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi2 statistic for size of jumps      :    0.21
+p-value of test                       :    0.90
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :   -0.17
+p-value of test                       :    0.57
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+ s = 258578456794897
+
+
+
+
+***********************************************************
+HOST = DESKTOP-LBIV1M0, Linux
+
+ulcg_CreatePow2LCGL:   e = 48,   a = 25214903917,   c = 11,   s = 1
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 512,  r =  0,   s =   32,   k =    9
+
+
+-----------------------------------------------
+Normal statistic                      :    0.96
+p-value of test                       :    0.17
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+ s = 36668409744097
+
+
+
+
+***********************************************************
+HOST = DESKTOP-LBIV1M0, Linux
+
+ulcg_CreatePow2LCGL:   e = 48,   a = 25214903917,   c = 11,   s = 1
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 512,  r =  0,   s =   32,   k =    9
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.47
+p-value of test                       :    0.93
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+ s = 72254720791217
+
+
+
+
+***********************************************************
+HOST = DESKTOP-LBIV1M0, Linux
+
+ulcg_CreatePow2LCGL:   e = 48,   a = 25214903917,   c = 11,   s = 1
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N =  8,  n = 32,  r =  0,   s =   32,   k =    5
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.28
+p-value of test                       :    0.23
+
+Kolmogorov-Smirnov- statistic = D-    :   0.047
+p-value of test                       :    0.93
+
+Anderson-Darling statistic = A2       :    0.80
+p-value of test                       :    0.47
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+ s = 18629213466241
+
+
+
+
+***********************************************************
+HOST = DESKTOP-LBIV1M0, Linux
+
+ulcg_CreatePow2LCGL:   e = 48,   a = 25214903917,   c = 11,   s = 1
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 16,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.77
+p-value of test                       :    0.22
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+ s = 89002176978513
+
+
+
+
+***********************************************************
+HOST = DESKTOP-LBIV1M0, Linux
+
+ulcg_CreatePow2LCGL:   e = 48,   a = 25214903917,   c = 11,   s = 1
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n =  8,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.35
+p-value of test                       :    0.36
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+ s = 15152380256801
+
+
+
+
+***********************************************************
+HOST = DESKTOP-LBIV1M0, Linux
+
+ulcg_CreatePow2LCGL:   e = 48,   a = 25214903917,   c = 11,   s = 1
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n =  4,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.84
+p-value of test                       :    0.97
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+ s = 52354124626417
+
+
+
+
+***********************************************************
+HOST = DESKTOP-LBIV1M0, Linux
+
+ulcg_CreatePow2LCGL:   e = 48,   a = 25214903917,   c = 11,   s = 1
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  1,  n = 449,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+Normal statistic                      :    0.38
+p-value of test                       :    0.35
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+ s = 24017455817422
+
+
+
+
+***********************************************************
+HOST = DESKTOP-LBIV1M0, Linux
+
+ulcg_CreatePow2LCGL:   e = 48,   a = 25214903917,   c = 11,   s = 1
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  1,  n = 450,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.28
+p-value of test                       :    0.61
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+ s = 226254059493183
+
+
+
+
+***********************************************************
+HOST = DESKTOP-LBIV1M0, Linux
+
+ulcg_CreatePow2LCGL:   e = 48,   a = 25214903917,   c = 11,   s = 1
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 102,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Total number of 1 runs:  107
+
+Number of degrees of freedom          :    6
+Chi2 statistic for number of runs     :    3.85
+p-value of test                       :    0.70
+
+
+-----------------------------------------------
+Total number of bits:  416
+
+Normal statistic for number of bits   :    0.28
+p-value of test                       :    0.39
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+ s = 253739229178186
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ Generator:        ulcg_CreatePow2LCGL
+ Number of bits:   512
+ Number of statistics:  16
+ Total CPU time:   00:00:00.00
+
+ All tests were passed
+
+
+
